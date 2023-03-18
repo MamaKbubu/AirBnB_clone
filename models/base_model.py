@@ -1,4 +1,5 @@
 #!usr/bin/python3
+
 from datetime import datetime
 import uuid
 
@@ -27,4 +28,3 @@ class BaseModel:
         new_dict["created_at"] = self.created_at.isoformat
         new_dict["updated_at"] = self.updated_at.isoformat
         return new_dict
-
